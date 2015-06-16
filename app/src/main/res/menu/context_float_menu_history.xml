@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dabby3pleminds.choppot.Home">
+            <item
+                android:id="@+id/history_add_favourite"
+                android:title="@string/add_to_favourite"
+                android:icon="@drawable/abc_list_selector_disabled_holo_light" />
+
+            <item
+                android:id="@+id/history_action_delete"
+                android:title="@string/action_delete"
+                android:icon="@drawable/abc_ic_clear_mtrl_alpha" />
+
+
+</menu>
+

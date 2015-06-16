@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dabby3pleminds.choppot.Home">
+
+    <item
+        android:id="@+id/favourite_action_edit"
+        android:title="@string/action_edit"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/favourite_action_delete"
+        android:title="@string/action_delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/favourite_action_order"
+        android:title="@string/action_order_now"
+        app:showAsAction="never" />
+
+
+</menu>

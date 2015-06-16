@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="75dp"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_list_item_favourite"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:padding="10dp"
+    android:background="#ffd7edff"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:divider="#ffe4fff2"
+    android:dividerPadding="5dp"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/friends_image_url_image"
+            android:src="@mipmap/ic_image4"
+            android:contentDescription="@string/image_desc" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/friends_name"
+            android:layout_height="wrap_content"
+            android:textColor="#ff000000"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/friends_phone"
+            android:layout_height="wrap_content"
+            android:textColor="#ff000000"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/friends_email"
+            android:layout_height="wrap_content"
+            android:textColor="#ff000000"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <!-- 2nd liner layout-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/last_called_time"
+            android:text="11:12"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ff030306"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/last_called_date"
+            android:text="23, Juune"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ff030306"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/friends_image_url"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:textColor="#ff030306" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

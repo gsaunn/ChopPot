@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_friends"
+        android:title="@string/add_friend"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/group_order"
+        android:title="@string/group_order"
+        app:showAsAction="never" />
+
+
+</menu>

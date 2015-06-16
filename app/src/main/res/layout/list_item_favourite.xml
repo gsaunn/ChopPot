@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="75dp"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_list_item_favourite"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:padding="10dp"
+    android:background="#ffd7edff"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:divider="#ffe4fff2"
+    android:dividerPadding="5dp">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:src="@mipmap/ic_image4"
+        android:contentDescription="@string/image_desc" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffe5fcff"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/history_order"
+                android:layout_height="wrap_content"
+                android:textColor="#ff000000"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/history_order_drink"
+                android:layout_height="wrap_content"
+                android:textColor="#ff000000"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffe5fcff"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/history_order_water"
+                android:layout_height="wrap_content"
+                android:textColor="#ff000000"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/order_from"
+                android:text="@string/from"
+                android:layout_height="wrap_content"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/order_provider"
+                android:layout_height="wrap_content"
+                android:textColor="#ff000000"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/order_time"
+            android:text="11:12"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ff030306"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/order_date"
+            android:text="23 June"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ff030306"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="N300.00"
+            android:id="@+id/order_price"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ff030306"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

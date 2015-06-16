@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dabby3pleminds.choppot.Home">
+
+    <item
+        android:id="@+id/friends_action_add_to_friends"
+        android:title="@string/add_to_friends"
+        app:showAsAction="never" />
+
+
+
+</menu>

@@ -1,0 +1,168 @@
+<resources>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="app_name" style="@style/title">ChopPot</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <!-- Welcome-->
+    <string name="welcome">Welcome To</string>
+    <!-- created by-->
+    <string name="created_by">Created By</string>
+    <!-- name-->
+    <string name="name">Don Potencio</string>
+    <!-- hungry-->
+    <string name="hungry_text">Hungry?</string>
+
+    <string name="ic_launcher_desc">image</string>
+    <!-- provider name-->
+    <string name="provider_title">Provider:</string>
+    <!-- Order string-->
+    <string name="order_title">Order:</string>
+    <!-- this string is used to display the restaurant choices-->
+    <string name="service_providers_title">Sync frequency</string>
+
+    <string-array name="providers_titles">
+        <item>Chitis</item>
+        <item>Marima</item>
+        <item>Frenzy</item>
+        <item>Sub</item>
+        <item>CEC</item>
+        <item>Kitchen</item>
+    </string-array>
+
+    <string name="chitis_contact">+2348030520715</string>
+    <string name="marima_contact">+2348030520715</string>
+    <string name="frenzy_contact">+2348030520715</string>
+    <string name="sub_contact">+2348030520715</string>
+    <string name="cec_contact">+2348030520715</string>
+    <string name="kitchen_contact">+2348030520715</string>
+    <!-- array holding menus-->
+    <string-array name="providers_menu">
+        <item>Yam</item>
+        <item>Beans</item>
+        <item>Swallow</item>
+        <item>Abacha</item>
+        <item>Spaghete</item>
+        <item>Plantain</item>
+    </string-array>
+
+    <!-- desc-->
+    <string name="description">Description:</string>
+    <!-- totalPrice-->
+    <string name="total_price">Total cost:</string>
+
+    <!-- clear history-->
+    <string name="clear_history">Clear</string>
+    <!-- clear history-->
+    <string name="mail_history">Mail</string>
+    <!-- clear history-->
+    <string name="evaluate_history">Evaluate</string>
+    <!-- clear history-->
+    <string name="order_water_title">Water:</string>
+    <!-- clear history-->
+    <string name="order_drink_title">Drinks:</string>
+    <!-- clear history-->
+    <string name="order_location_title">Location:</string>
+    <!-- clear history-->
+    <string name="order_quantity_title">Quantity:</string>
+    <!-- clear history-->
+    <string name="order_comment">Comment"</string>
+    <!-- clear history-->
+    <string name="order_submit">Order:</string>
+    <!-- clear history-->
+    <string name="order_save">Save</string>
+
+    <!-- group order-->
+    <string name="group_order">Group Order</string>
+    <!-- add a friend-->
+    <string name="add_to_a_group">Add to Group</string>
+    <!-- add a friend-->
+    <string name="add_to_friends">Add to Friends</string>
+    <!-- group order-->
+    <string name="order_for">Order For</string>
+    <!-- add a friend-->
+    <string name="add_friend">Add a New Friend</string>
+
+    <string name="action_delete">Delete</string>
+    <!-- -->
+    <string name="action_order_now">Order</string>
+    <!-- add to favourite-->
+    <string name="add_to_favourite">Add to Favourite</string>
+    <!-- -->
+    <string name="action_edit">Edit</string>
+    <!-- -->
+    <string name="clear_all_history">Clear All</string>
+    <!-- chitis menu-->
+    <string name="order_time_title">Time:</string>
+
+    <string name="order_date_title">Date:</string>
+    <string-array name="chitis_menu">
+        <item>PoilageYam</item>
+        <item>Fried Rice</item>
+        <item>Swallow+Egusi Soup</item>
+        <item>Abacha + Canda</item>
+        <item>Spaghete + Chicken</item>
+        <item>Plantain + Beans</item>
+        <item>Ice Cream</item>
+        <item>Bread</item>
+        <item>Meat Pile</item>
+    </string-array>
+
+    <!-- chitis menu drinks-->
+    <string-array name="chitis_menu_drink">
+        <item>Coke</item>
+        <item>Fanta</item>
+        <item>Pepsi</item>
+        <item>Yougurt</item>
+        <item>Seven UP</item>
+        <item>Wine</item>
+        <item>Hollandia</item>
+        <item>Chivita Juice</item>
+    </string-array>
+    <!-- actino clear lo-->
+    <string name="clear_favourite_log">Clear all</string>
+    <!-- action add-->
+    <string name="action_add_favourite">Add Favourite</string>
+    <!-- chitis menu-->
+    <string-array name="chitis_menu_water">
+        <item>Rapha BW 50cl</item>
+        <item>Eva 100cl</item>
+        <item>Rapha BW 120cl</item>
+        <item>Eva 40cl</item>
+
+    </string-array>
+    <!-- share string-->
+    <string name="action_share">Share
+    </string>
+    <string name="title_activity_history_deatil">Detail</string>
+    <!-- -->
+    <string name="title_activity_favourite_detail">Detail</string>
+    <!-- -->
+    <string name="image_desc">image</string>
+    <string name="from">From</string>
+    <string name="provider">Chitis</string>
+
+
+    <!-- dialog string begins-->
+    <string name="sure_to_delete">Verify Delete</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="title_activity_edit_favourite">Edit</string>
+    <string name="title_activity_friends">Friends</string>
+    <string name="title_activity_add_favourite">AddFavourite</string>
+    <string name="image">image</string>
+    <string name="deletBt">Delete</string>
+    <string name="add_favourite">Add to Favourite</string>
+    <string name="reorder">Reorder</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_friends">AddFriends</string>
+    <string name="title_activity_history_detail">Detail</string>
+</resources>

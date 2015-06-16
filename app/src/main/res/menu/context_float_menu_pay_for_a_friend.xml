@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dabby3pleminds.choppot.Home">
+
+    <item
+        android:id="@+id/add_to_group"
+        android:title="@string/add_to_a_group"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/order_for"
+        android:title="@string/order_for"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/friends_action_delete"
+        android:title="@string/action_delete"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+</menu>

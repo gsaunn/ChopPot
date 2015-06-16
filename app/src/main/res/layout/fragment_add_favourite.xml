@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:fillViewport="true"
+    android:focusable="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/oder_page_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#ffe4fff2"
+        android:divider="#ffd7edff"
+        android:dividerPadding="5dp"
+        android:nestedScrollingEnabled="true"
+        android:orientation="vertical"
+        android:outlineProvider="paddedBounds"
+        android:overScrollMode="always">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffd7edff"
+            android:divider="#ffe4fff2"
+            android:dividerPadding="5dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/provider_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="@string/provider_title"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff180b5c"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner_provider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.5"
+                android:paddingBottom="5dp"
+                android:textColor="#000000"
+                android:theme="@style/AlertDialog.AppCompat.Light"
+                android:transitionGroup="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffd7edff"
+            android:divider="#ffe4fff2"
+            android:dividerPadding="5dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/order_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="@string/order_title"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff180b5c"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.5"
+                android:paddingBottom="5dp"
+                android:textColor="#ff180b5c" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffd7edff"
+            android:divider="#ffe4fff2"
+            android:dividerPadding="5dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/order_drinks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="@string/order_drink_title"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff180b5c"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner_order_drinks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:paddingBottom="5dp"
+                android:textColor="#ff180b5c" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffd7edff"
+            android:divider="#ffe4fff2"
+            android:dividerPadding="5dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/order_water"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="@string/order_water_title"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff180b5c"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner_order_water"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:paddingBottom="5dp"
+                android:textColor="#ff180b5c" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+
+            >
+
+            <Button
+                android:id="@+id/orderSaveButton"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:text="@string/order_save" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
